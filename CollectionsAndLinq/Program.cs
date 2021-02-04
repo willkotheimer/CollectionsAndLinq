@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using CollectionsAndLinq.LinqExamples;
 
 namespace CollectionsAndLinq
 {
@@ -145,7 +146,8 @@ namespace CollectionsAndLinq
                 Console.WriteLine($"currently popping: {stack.Pop()}");
             }
 
-
+            var examples = new Examples();
+            examples.Run();
 
 
             var a1 = new A<int>();
